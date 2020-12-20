@@ -41,7 +41,7 @@ public void save() throws IOException, InterruptedException
 
 
 	String destination = filename1;
-	// String appdestination = "D:/SW-CL-R449A-PWM-CTR-ID5NV6,8/";
+	// String appdestination = "D drive";
 
 	File destDir = new File(destination);
 	//  File appdestinationDir = new File(appdestination);
