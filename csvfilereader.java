@@ -41,19 +41,13 @@ public void save() throws IOException, InterruptedException
 
 
 	String destination = filename1;
-	// String appdestination = "D drive";
-
 	File destDir = new File(destination);
-	//  File appdestinationDir = new File(appdestination);
 
-	try {
-		// FileUtils.copyDirectory(srcDir, destDir);
+	try {	
 		FileUtils.copyDirectory(appDir, destDir);
-
 	} catch (IOException e) {
 		e.printStackTrace();
 	}
-
 	public void PropertiesSaving file()
 	{
 		try {
